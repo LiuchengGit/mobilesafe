@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#3000"
+    >
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="按住中间区域的方块拖动，\n即可确定电话归属地提示框的位置"
+        android:textSize="18dp"
+        android:background="@drawable/call_locate_blue"
+        android:padding="10dp"
+      >
+    </TextView>
+    
+	 <TextView
+	        android:id="@+id/tv_bottom"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="按住中间区域的方块拖动，\n即可确定电话归属地提示框的位置"
+	        android:textSize="18dp"
+	        android:background="@drawable/call_locate_blue"
+	        android:padding="10dp"
+	        android:visibility="invisible"
+	      >
+	    </TextView>
+	    <ImageView 
+	        android:id="@+id/iv_drag"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/drag"
+	        android:layout_marginTop="90dp"
+	        />
+    
+   
+
+</RelativeLayout>
+<!-- From: file:/D:/工作/mobilesafe/app/src/main/res/layout/activity_drag.xml -->

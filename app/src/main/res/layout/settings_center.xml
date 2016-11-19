@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sharetronic="http://schemas.android.com/apk/res/com.sharetronic.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/TitleTheme"
+        android:text="设置中心" />
+
+    <com.sharetronic.mobilesafetview.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sharetronic:description_off="自动更新已经关闭"
+        sharetronic:description_on="自动更新已经开启"
+        sharetronic:title="自动更新设置" >
+    </com.sharetronic.mobilesafetview.SettingItemView>
+
+    <com.sharetronic.mobilesafetview.SettingItemView
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sharetronic:description_off="电话归属地显示已经关闭"
+        sharetronic:description_on="电话归属地显示已经开启"
+        sharetronic:title="电话归属地显示设置" >
+    </com.sharetronic.mobilesafetview.SettingItemView>
+    
+    
+    <com.sharetronic.mobilesafetview.SettingClickView
+        android:id="@+id/siv_addressstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    </com.sharetronic.mobilesafetview.SettingClickView>
+    
+    <com.sharetronic.mobilesafetview.SettingClickView
+        android:id="@+id/siv_addressstylelocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+    </com.sharetronic.mobilesafetview.SettingClickView>
+
+</LinearLayout>

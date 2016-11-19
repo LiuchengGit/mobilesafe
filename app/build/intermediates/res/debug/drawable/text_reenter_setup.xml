@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+   
+
+    <corners android:radius="5dp" />
+    
+    <solid 
+        android:color="#9000"
+        />
+</shape><!-- From: file:/D:/工作/mobilesafe/app/src/main/res/drawable/text_reenter_setup.xml -->

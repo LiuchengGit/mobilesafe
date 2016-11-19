@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sharetronic="http://schemas.android.com/apk/res/com.sharetronic.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+        style="@style/TitleTheme"
+        android:text= "高级工具"   
+        />
+ 
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/reenter_setup_selector"    
+    android:text="号码归属地查询"
+    android:drawableLeft="@android:drawable/ic_menu_camera"
+    android:textSize="20sp"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:drawablePadding="5dp"
+    android:clickable="true"
+    android:onClick="phoneSearch" 
+        />
+ 
+ 
+ 
+ 
+ 
+</LinearLayout>

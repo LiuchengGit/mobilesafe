@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tv_settingtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_settingdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_settingtitle"
+        android:layout_marginTop="3dp"
+        android:textColor="#4000"
+        android:textSize="18dp" />
+ <!-- 禁掉checkbox的点击事件处理功能 
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+ -->
+    <CheckBox
+        android:id="@+id/checkbox_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#4000" />
+
+</RelativeLayout>
